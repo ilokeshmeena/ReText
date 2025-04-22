@@ -1,4 +1,4 @@
-package com.rexvit.retext
+package com.rexvit.retext.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,7 +12,11 @@ import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
+import com.rexvit.retext.R
+import com.rexvit.retext.data.database.DatabaseHelper
 import com.rexvit.retext.databinding.ActivityMainBinding
+import com.rexvit.retext.ui.adapter.AppSelectionAdapter
+import com.rexvit.retext.utility.AppUtils
 
 
 class MainActivity : AppCompatActivity() {

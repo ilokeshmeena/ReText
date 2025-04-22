@@ -1,8 +1,9 @@
-package com.rexvit.retext
+package com.rexvit.retext.utility
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
+import com.rexvit.retext.data.model.AppInfo
 
 object AppUtils {
     fun getInstalledApps(context: Context): List<AppInfo> {

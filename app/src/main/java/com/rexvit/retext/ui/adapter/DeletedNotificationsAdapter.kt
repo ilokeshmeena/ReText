@@ -1,4 +1,4 @@
-package com.rexvit.retext
+package com.rexvit.retext.ui.adapter
 
 import android.graphics.Canvas
 import android.view.LayoutInflater
@@ -8,6 +8,9 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
+import com.rexvit.retext.R
+import com.rexvit.retext.data.database.DatabaseHelper
+import com.rexvit.retext.data.model.DeletedNotification
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator
 
 class DeletedNotificationsAdapter(
@@ -92,9 +95,13 @@ class DeletedNotificationsAdapter(
                 actionState,
                 isCurrentlyActive
             )
-                .addSwipeLeftBackgroundColor(ContextCompat.getColor(recyclerView.context, R.color.danger))
+                .addSwipeLeftBackgroundColor(ContextCompat.getColor(recyclerView.context,
+                    R.color.danger
+                ))
                 .addSwipeLeftActionIcon(R.drawable.ic_delete)
-                .addSwipeRightBackgroundColor(ContextCompat.getColor(recyclerView.context, R.color.accent_blue))
+                .addSwipeRightBackgroundColor(ContextCompat.getColor(recyclerView.context,
+                    R.color.accent_blue
+                ))
                 .addSwipeRightActionIcon(R.drawable.ic_archive)
                 .create()
                 .decorate()

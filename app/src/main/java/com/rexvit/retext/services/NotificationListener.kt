@@ -1,10 +1,13 @@
-package com.rexvit.retext
+package com.rexvit.retext.services
 
 import android.content.ComponentName
 import android.os.Build
 import android.service.notification.NotificationListenerService
 import android.service.notification.StatusBarNotification
 import android.util.Log
+import com.rexvit.retext.utility.AppUtils
+import com.rexvit.retext.data.database.DatabaseHelper
+import com.rexvit.retext.data.model.DeletedNotification
 
 class NotificationListener : NotificationListenerService() {
     private lateinit var dbHelper: DatabaseHelper

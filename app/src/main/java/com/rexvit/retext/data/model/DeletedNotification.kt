@@ -1,4 +1,4 @@
-package com.rexvit.retext
+package com.rexvit.retext.data.model
 
 data class DeletedNotification(
     val packageName: String,

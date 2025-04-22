@@ -1,4 +1,4 @@
-package com.rexvit.retext
+package com.rexvit.retext.ui.adapter
 
 import android.graphics.Canvas
 import android.util.Log
@@ -11,6 +11,8 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
+import com.rexvit.retext.R
+import com.rexvit.retext.data.model.AppInfo
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator
 
 class AppSelectionAdapter(
@@ -99,7 +101,9 @@ class AppSelectionAdapter(
                 actionState,
                 isCurrentlyActive
             )
-                .addSwipeLeftBackgroundColor(ContextCompat.getColor(recyclerView.context, R.color.danger))
+                .addSwipeLeftBackgroundColor(ContextCompat.getColor(recyclerView.context,
+                    R.color.danger
+                ))
                 .addSwipeLeftActionIcon(R.drawable.ic_delete)
                 .create()
                 .decorate()

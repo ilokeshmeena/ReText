@@ -1,4 +1,4 @@
-package com.rexvit.retext
+package com.rexvit.retext.ui.activity
 
 import android.os.Bundle
 import android.view.Menu
@@ -9,7 +9,10 @@ import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
+import com.rexvit.retext.R
+import com.rexvit.retext.data.database.DatabaseHelper
 import com.rexvit.retext.databinding.ActivityDeletedNotificationsBinding
+import com.rexvit.retext.ui.adapter.DeletedNotificationsAdapter
 
 class DeletedNotificationsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDeletedNotificationsBinding

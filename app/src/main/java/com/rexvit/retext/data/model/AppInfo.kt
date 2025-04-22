@@ -1,4 +1,4 @@
-package com.rexvit.retext
+package com.rexvit.retext.data.model
 
 import android.graphics.drawable.Drawable
 
