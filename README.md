@@ -7,7 +7,7 @@ Got it! Here's your updated `README.md` with the **Installation** section remove
 [![GitHub Stars](https://img.shields.io/github/stars/ilokeshmeena/ReText?style=social)](https://github.com/ilokeshmeena/ReText)
 [![GitHub Forks](https://img.shields.io/github/forks/ilokeshmeena/ReText?style=social)](https://github.com/ilokeshmeena/ReText)
 [![GitHub Issues](https://img.shields.io/github/issues/ilokeshmeena/ReText)](https://github.com/ilokeshmeena/ReText/issues)
-[![License](https://img.shields.io/github/license/ilokeshmeena/ReText)](https://github.com/ilokeshmeena/ReText/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/ilokeshmeena/ReText)](https://github.com/ilokeshmeena/ReText/blobdevelop/LICENSE)
 
 **ReText** is a user-friendly Android application designed to help you recover and view deleted notifications and messages from your favorite apps. Never miss important information again!
 
@@ -91,7 +91,7 @@ Before submitting, please:
 
 ## License
 
-ReText is licensed under the [MIT License](https://github.com/ilokeshmeena/ReText/blob/main/LICENSE).
+ReText is licensed under the [MIT License](https://github.com/ilokeshmeena/ReText/blobdevelop/LICENSE).
 
 ---
 
