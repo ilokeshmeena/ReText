@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ReText</string>
+    <string name="notification_listener">ReText Notification Listener</string>
+    <string name="select_apps">Select apps to monitor</string>
+    <string name="save_selection">Save Selection</string>
+    <string name="view_deleted">View Deleted</string>
+    <string name="notification_access_required">Notification Access Required</string>
+    <string name="notification_access_message">ReText needs notification access to monitor deleted notifications.</string>
+    <string name="grant_access">Grant Access</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_all">Clear All</string>
+    <string name="settings">Settings</string>
+</resources>
